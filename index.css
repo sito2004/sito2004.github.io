@@ -1,3 +1,9 @@
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body{
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,6 +15,7 @@ nav{
     text-align: center;
     display: inline-block;
     width:  100%;
+    font-family: "Bungee Spice" ;
 }
 h1{
     padding: 20px;
@@ -19,6 +26,7 @@ h1{
 nav{
     background-color: rgb(5, 6, 7);
     margin: auto;
+    border-bottom: 5px solid ;
 }
 ol>li{
 border: 1px solid black;
@@ -27,7 +35,7 @@ display: inline-block;
 padding: 15px;
 margin-top: 20px;
 margin: 20px;
-background-color: white;
+background-color: darkgray;
 border-bottom: 7px solid rgb(0, 0, 0);
 border-right: 5px solid black;
 list-style: none;
@@ -36,7 +44,7 @@ li{
     text-decoration: none;
 }
 ol>li:hover{
-    background-color: orange;
+    background-color: rgb(37, 37, 34);
 }
 .formatocoches{
     display: inline-block;
