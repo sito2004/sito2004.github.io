@@ -15,7 +15,7 @@ nav{
     text-align: center;
     display: inline-block;
     width:  100%;
-    font-family: "Bungee Spice" ;
+    font-family: "Bungee Spice", Verdana, Geneva, Tahoma, sans-serif ;
 }
 h1{
     margin: 0 auto;
