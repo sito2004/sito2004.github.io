@@ -11,44 +11,47 @@ body{
     background-color: rgb(255, 255, 255);
      
 }
-nav{
-    margin: 0 auto;
-    text-align: center;
-    display: inline-block;
-    width:  100%;
+header{
+    background-color: black;
+    margin-top: 0;
+}
+.menu{
+    margin-top: 0px;
+    list-style: circle;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
     font-family: "Bungee Spice", Verdana, Geneva, Tahoma, sans-serif ;
+}
+.menu li{
+    position: relative;
+    display: inline-block;
+}
+.menu li:hover ul{
+    display: block;
+
+}
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.formato2li{
+    border: 1px solid white;
 }
 h1{
     margin: 0 auto;
     text-align: left;
 
 }
-nav{
-    background-color: rgb(0, 0, 0);
-    margin: auto;
-    border-bottom: 5px solid ;
-}
+
 #banner{
     margin-top: 40px ;
 }
-ol>li{
-border: 1px solid black;
-list-style: none;
-display: inline-block;
-padding: 15px;
-margin-top: 20px;
-margin: 20px;
-background-color: darkgray;
-border-bottom: 7px solid rgb(0, 0, 0);
-border-right: 5px solid black;
-list-style: none;
-}
-li{
-    text-decoration: none;
-}
-ol>li:hover{
-    background-color: rgb(37, 37, 34);
-}
+
 .formatocoches{
     display: inline-block;
     width: 30%;
@@ -86,6 +89,15 @@ footer{
 }
 
 /* Nuevos cambios*/
+@media (max-width: 1000px){
+    div{
+        display: block;
+    }
+    .formatocoches{
+        display: block;
+        width: 100%; 
+    }
+}
 .Ejemplo{
     padding-left: 5%;
     font-size: 15px;
