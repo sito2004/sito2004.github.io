@@ -44,12 +44,12 @@ padding-left: 500px;
             width: 300px;
 }
 
-.menu li:hover ul{
+.menu li:hover ol{
     display: block;
 
 }
-.menu ul{
-    width: 300px;
+.menu ol{
+    width: 100%;
     height: auto;
     display: none;
     position: absolute;
