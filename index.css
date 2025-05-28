@@ -20,10 +20,19 @@ header{
     background-color: black;
     margin-top: 0;
 }
+h1{
+color: white;
+padding-left: 500px;
+
+    
+}
 .menu  a{
       border-bottom: 5px solid white;
 }
 .menu{
+    position: sticky;
+    top: 0;
+    width: 100%;
     color: white;
     margin-top: 0px;
     list-style: circle;
@@ -77,9 +86,8 @@ h1{
 }
 
 #banner{
-    margin-top: 40px ;
-    width: 100%;
-    height: 20%;
+width: 100%;
+padding-left: 0px;
 }
 
 
