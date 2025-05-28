@@ -1,3 +1,9 @@
+.eater-regular {
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .bungee-spice-regular {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
@@ -14,31 +20,55 @@ header{
     background-color: black;
     margin-top: 0;
 }
+.menu  a{
+      border-bottom: 5px solid white;
+}
 .menu{
+    color: white;
     margin-top: 0px;
     list-style: circle;
     background-color: rgb(0, 0, 0);
     padding: 20px;
-    font-family: "Bungee Spice", Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: "Eater", Verdana, Geneva, Tahoma, sans-serif ;
+
 }
 .menu li{
     position: relative;
     display: inline-block;
+            padding-top:10px ;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            width: 300px;
 }
+
 .menu li:hover ul{
     display: block;
 
 }
 .menu ul{
+    width: 300px;
+    height: auto;
     display: none;
     position: absolute;
     top: 100%;
     left: 0px;
-    background-color: rgb(0, 0, 0);
     height: 200px;
 }
 .formato2li{
-    border: 1px solid white;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    
+    
+    
+}
+.formato2li:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 h1{
     margin: 0 auto;
