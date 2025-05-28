@@ -30,8 +30,6 @@ padding-left: 500px;
       border-bottom: 5px solid white;
 }
 .menu{
-    position: sticky;
-    top: 0;
     width: 100%;
     color: white;
     margin-top: 0px;
@@ -51,11 +49,11 @@ padding-left: 500px;
             width: 300px;
 }
 
-.menu li:hover ul{
+.menu li:hover ol{
     display: block;
 
 }
-.menu ul{
+.menu ol{
     width: 300px;
     height: auto;
     display: none;
