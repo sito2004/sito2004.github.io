@@ -141,6 +141,12 @@ footer{
     }
     .formatocoches{
         display: block;
+      .tipo{
+    font-size: 40px;
+    margin-left: 620px;
+    color: grey;
+    height: auto;
+}
         width: 100%; 
     }
 }
