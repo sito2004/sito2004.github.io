@@ -96,7 +96,20 @@ padding-left: 0px;
    padding: 20px;
 
 }
-
+.tipo-2{
+    background-color: goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+.tipo-texto{
+    background-color: grey;
+    padding: 20px;
+    
+}
 
 .formatocoches{
     display: inline-block;
@@ -120,7 +133,7 @@ div{
 
 .tipo{
     font-size: 22px;
-    margin-left: 620px;
+
     color: grey;
     height: auto;
 }
