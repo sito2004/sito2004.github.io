@@ -62,6 +62,13 @@ padding-left: 500px;
     left: 0px;
     height: 200px;
 }
+.h2-titulos{
+    margin-left: 180px;
+        color: orangered;
+    font-size: 43px;
+   padding: 20px;
+
+}
 .formato2li{
     display: inline-flex;
     flex-direction: column;
