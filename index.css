@@ -26,19 +26,6 @@ padding-left: 500px;
 
     
 }
-.tipo{
-    font-size: 40px;
-    margin-left: 620px;
-    color: grey;
-    height: auto;
-}
-.h2-titulos{
-    margin-left: 180px;
-        color: orangered;
-    font-size: 43px;
-   padding: 20px;
-
-}
 .menu  a{
       border-bottom: 5px solid white;
 }
@@ -75,13 +62,6 @@ padding-left: 500px;
     left: 0px;
     height: 200px;
 }
-.h2-titulos{
-    margin-left: 180px;
-        color: orangered;
-    font-size: 43px;
-   padding: 20px;
-
-}
 .formato2li{
     display: inline-flex;
     flex-direction: column;
@@ -101,13 +81,21 @@ h1{
     margin: 0 auto;
     text-align: left;
 
+
 }
 
 #banner{
 width: 100%;
 padding-left: 0px;
-}
 
+}
+.h2-titulos{
+    margin-left: 180px;
+        color: orangered;
+    font-size: 43px;
+   padding: 20px;
+
+}
 
 
 .formatocoches{
@@ -129,7 +117,11 @@ div{
     font-family: 'Times New Roman', Times, serif;
 }
 
+
 .tipo{
+    font-size: 40px;
+    margin-left: 620px;
+    color: grey;
     height: auto;
 }
 img{
@@ -161,12 +153,6 @@ footer{
     }
     .formatocoches{
         display: block;
-      .tipo{
-    font-size: 40px;
-    margin-left: 620px;
-    color: grey;
-    height: auto;
-}
         width: 100%; 
     }
 }
