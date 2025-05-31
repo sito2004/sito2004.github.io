@@ -26,6 +26,19 @@ padding-left: 500px;
 
     
 }
+.tipo{
+    font-size: 40px;
+    margin-left: 620px;
+    color: grey;
+    height: auto;
+}
+.h2-titulos{
+    margin-left: 180px;
+        color: orangered;
+    font-size: 43px;
+   padding: 20px;
+
+}
 .menu  a{
       border-bottom: 5px solid white;
 }
