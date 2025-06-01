@@ -29,8 +29,14 @@ body{
      
 }
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin-top: 0;
+}
+.menu li{
+    color: white;
+}
+.menu li:hover ol {
+    display: block;
 }
 h1{
 color: white;
@@ -41,9 +47,12 @@ padding-left: 500px;
 .menu  a{
       border-bottom: 5px solid white;
 }
+.nose{
+    background-color: black;
+}
 .menu{
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 0px;
     list-style: circle;
     background-color: rgb(0, 0, 0);
@@ -69,7 +78,7 @@ padding-left: 500px;
     border-bottom: 5px solid rgb(0, 0, 0);
 }
 .menu ol{
-    background-color: black;
+    
     width: 300px;
     height: auto;
     display: none;
@@ -84,10 +93,10 @@ padding-left: 500px;
     font-size: 22px;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    color: white;
     border-radius: 10px 10px 10px 10px;
-    
-    
+    margin: auto;
 }
 .formato2li:hover{
     background-color: rgb(255, 255, 255);
@@ -186,10 +195,9 @@ footer{
         display: block;
     }
     .formatocoches{
-        
-        width: 100%;
-        height: auto;
         display: block;
+        width: 95%;
+        height: auto;
         justify-content: baseline;
     }
     .h2-titulos{
