@@ -65,7 +65,11 @@ padding-left: 500px;
     display: block;
 
 }
+.menu a:hover{
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
 .menu ol{
+    background-color: black;
     width: 300px;
     height: auto;
     display: none;
@@ -81,13 +85,14 @@ padding-left: 500px;
     width: 100%;
     text-align: center;
     background-color: black;
-    
+    border-radius: 10px 10px 10px 10px;
     
     
 }
 .formato2li:hover{
     background-color: rgb(255, 255, 255);
     color: black;
+
 }
 h1{
     margin: 0 auto;
@@ -176,21 +181,24 @@ footer{
 }
 
 @media (max-width: 1000px){
+
     div{
         display: block;
     }
     .formatocoches{
-        display: flex;
-        width: 29%; 
+        
+        width: 100%;
         height: auto;
-        display: inline-block;
+        display: block;
         justify-content: baseline;
     }
     .h2-titulos{
         font-size: 25px;
+        
     }
     .tipo-2{
         width: 60%;
+        margin: auto;
     }
     .tipo-texto{
         font-size: 25px;
